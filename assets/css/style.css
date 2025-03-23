@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+body {
+    background: linear-gradient(#ecadad, #adb2e8);
+}
+
+h1, button {
+    font-family: 'Preahvihear', sans-serif;
+    transition: all 0.25s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.font-main {
+    font-family: 'Preahvihear', sans-serif;
+}
+
+.text-outline {
+    text-shadow: 4px 4px 0px black, -2px -2px 0px black, -2px 2px 0px black, 2px -2px 0px black;
+}
