@@ -73,7 +73,7 @@ export const canciones = [
     { id: 66, title: "Black Rover", artist: "Vickeblanka", img: "./assets/img/songs/song66.jpg", link: "https://youtu.be/VSucxMB_Z6k" },
     { id: 67, title: "365 Nichi no Kamihikouki", artist: "AKB48", img: "./assets/img/songs/song67.jpg", link: "https://youtu.be/JUbU6VLV6yI" },
     { id: 68, title: "Go!!!", artist: "FLOW", img: "./assets/img/songs/song68.jpg", link: "https://youtu.be/AE4b9jO1uB4" },
-    { id: 69, title: "Nandemonaiya", artist: "RADWIMPS", img: "./assets/img/songs/song69.jpg", link: "https://youtu.be/hkBbUf4oGfA" },
+    { id: 69, title: "Nandemonaiya", artist: "RADWIMPS", img: "./assets/img/songs/song69.jpg", link: "https://youtu.be/n89SKAymNfA" },
     { id: 70, title: "Hikari no Uta", artist: "Koda Kumi", img: "./assets/img/songs/song70.jpg", link: "https://youtu.be/JiWEZbm6lhI" },
     
     { id: 71, title: "NEON BLADE", artist: "MoonDeity", img: "./assets/img/songs/song71.jpg", link: "https://youtu.be/dvQJIgjlR3I" },
