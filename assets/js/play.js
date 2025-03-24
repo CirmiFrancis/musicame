@@ -28,14 +28,14 @@ export function jugar() {
                 nroCanciones.className = "text-5xl md:text-6xl text-yellow-400";
                 nroCanciones.setAttribute("data-aos", "fade-down");
                 nroCanciones.setAttribute("data-aos-duration", "1500");
-                nroCanciones.textContent = "16 Canciones";
+                nroCanciones.textContent = "16 canciones";
 
                 // Crea el h3 - nombre del juego
                 const gameName = document.createElement("h3");
                 gameName.className = "text-4xl text-white";
                 gameName.setAttribute("data-aos", "fade-up");
                 gameName.setAttribute("data-aos-duration", "1500");
-                gameName.textContent = "¿Qué Prefieres?";
+                gameName.textContent = "Elige tu favorita";
     
                 contenedor.appendChild(nroCanciones);
                 contenedor.appendChild(gameName);
