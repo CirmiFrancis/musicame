@@ -1,6 +1,6 @@
 # 🎵 MusicaMe
 
-Aplicación web interactiva donde el usuario puede votar y elegir su canción favorita, en formato torneo.
+Aplicación web interactiva donde el usuario puede votar entre varias canciones y elegir su canción favorita, en formato torneo.
 
 https://cirmifrancis.github.io/musicame/
 
