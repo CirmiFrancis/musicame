@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MusicaMe</title>
-    <link rel="shortcut icon" href="/assets/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/img/icon.png" type="image/x-icon">
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/background.css">
@@ -21,7 +21,7 @@
         <div class="hidden" id="topDiv">
             <div>
                 <a href="/index.html">
-                    <button class="fixed top-4 left-4 py-2 px-2 text-2xl text-white text-outline font-bold cursor-pointer"> MusicaMe </button>
+                    <button class="fixed top-4 left-4 py-2 px-2 text-2xl text-white text-outline font-main font-bold cursor-pointer"> MusicaMe </button>
                 </a>
             </div>
         </div>
@@ -29,12 +29,12 @@
         <!-- MIDDLE -->
         <div id="mainDiv" class="flex flex-col justify-center items-center">
             <div id="titleDiv" data-aos="fade-down" data-aos-duration="1500">
-                <h1 id="title" class="text-6xl font-bold text-white text-outline"> MusicaMe </h1>
+                <h1 id="title" class="text-6xl font-main font-bold text-white text-outline"> MusicaMe </h1>
             </div>
 
             <div id="playGameDiv" data-aos="fade-up" data-aos-duration="2000">
-                <button id="playGame" class="mt-8 py-2 px-8 text-white font-bold bg-stone-900 border-2 border-white rounded-4xl cursor-pointer hover:text-black hover:bg-stone-200 hover:border-black"> JUGAR </button>
-            </div>        
+                <button id="playGame" class="mt-8 py-2 px-8 text-white font-main font-bold bg-stone-900 border-2 border-white rounded-4xl cursor-pointer hover:text-black hover:bg-stone-200 hover:border-black"> JUGAR </button>
+            </div>
         </div>
 
         <!-- BOTTOM -->
@@ -54,6 +54,8 @@
                 
                 <img class="fixed bottom-4 right-4 w-12 hover:cursor-pointer" src="./assets/img/soundOFF.png" alt="Ícono para alternar el sonido." id="musicBtn">
             </div>
+
+            <audio id="sonidoConfeti" src="./assets/confetti_pop.mp3"></audio>
         </div>
     </div>
 
@@ -64,6 +66,8 @@
         <div class="wave"></div>
     </div>
 
+    <!-- Canvas Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
