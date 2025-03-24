@@ -1,28 +1,8 @@
-import { canciones } from "./others/songs.js";
 import { musica } from "./others/music.js";
 import { jugar } from "./play.js";
 
-// VARIABLES
-const nroRondas = 4;
-const ronda = 1;
-const nroMinirondas = 4;
-const minironda = 1;
-
-let cancionesProximaRonda = [];
-let cancionesEliminadas = [];
-
-// CÓDIGO MAIN
 musica();
 jugar();
-
-console.log('==============================================================================')
-console.log('LISTA DE CANCIONES')
-console.log(canciones);
-console.log('==============================================================================')
-console.log(`${nroRondas} RONDAS / ${nroRondas * 2} CANCIONES`);
-console.log('======================================')
-console.log(`Ronda Nº ${ronda} (${minironda}/${nroMinirondas})`);
-console.log('==============================================================================')
 
 /*
     1) Lista de canciones

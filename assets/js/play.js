@@ -25,10 +25,10 @@ export function jugar() {
 
                 // Crea el h2 - número de canciones
                 const nroCanciones = document.createElement("h2");
-                nroCanciones.className = "text-6xl text-yellow-400";
+                nroCanciones.className = "text-5xl md:text-6xl text-yellow-400";
                 nroCanciones.setAttribute("data-aos", "fade-down");
                 nroCanciones.setAttribute("data-aos-duration", "1500");
-                nroCanciones.textContent = "8 Canciones";
+                nroCanciones.textContent = "16 Canciones";
 
                 // Crea el h3 - nombre del juego
                 const gameName = document.createElement("h3");
