@@ -9,3 +9,13 @@ export function desaparecerYRemover(element) {
         }, 500);
     }
 }
+
+export function lanzarConfeti() {
+    document.getElementById("sonidoConfeti").play();
+    confetti({
+        particleCount: 100, // Número de partículas
+        angle: 90, // Ángulo de dispersión
+        spread: 70, // Distribución
+        origin: { y: 0.8 } // Origen de las partículas
+    });   
+}
