@@ -5,7 +5,7 @@ export const canciones = [
     { id: 4, title: "Levitating", artist: "Dua Lipa", img: "./assets/img/songs/song4.jpg", link: "https://youtu.be/TUVcZfQe-Kw" },
     { id: 5, title: "Thank U, Next", artist: "Ariana Grande", img: "./assets/img/songs/song5.jpg", link: "https://youtu.be/gl1aHhXnN1k" },
     { id: 6, title: "Roar", artist: "Katy Perry", img: "./assets/img/songs/song6.jpg", link: "https://youtu.be/CevxZvSJLk8" },
-    { id: 7, title: "Señorita", artist: "Shawn Mendes", img: "./assets/img/songs/song7.jpg", link: "https://youtu.be/Pkh8UtuejGw" },
+    { id: 7, title: "Señorita", artist: "Shawn Mendes, Camila Cabello", img: "./assets/img/songs/song7.jpg", link: "https://youtu.be/Pkh8UtuejGw" },
     { id: 8, title: "Don't Start Now", artist: "Dua Lipa", img: "./assets/img/songs/song8.jpg", link: "https://youtu.be/oygrmJFKYZY" },
     { id: 9, title: "Watermelon Sugar", artist: "Harry Styles", img: "./assets/img/songs/song9.jpg", link: "https://youtu.be/E07s5ZYygMg" },
     { id: 10, title: "Dance Monkey", artist: "Tones and I", img: "./assets/img/songs/song10.jpg", link: "https://youtu.be/q0hyYWKXF0Q" },
